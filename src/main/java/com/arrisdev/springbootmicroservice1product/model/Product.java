@@ -3,6 +3,7 @@ package com.arrisdev.springbootmicroservice1product.model;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
@@ -13,8 +14,9 @@ import java.time.LocalDateTime;
 @Data
 @Entity
 @Table(name = "product")
-public class Product
+public class Product implements Serializable
 {
+    private static final long serialversionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
