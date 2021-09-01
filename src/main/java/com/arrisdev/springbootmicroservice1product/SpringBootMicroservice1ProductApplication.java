@@ -1,4 +1,4 @@
-package com.sha.springbootmicroservice1product;
+package com.arrisdev.springbootmicroservice1product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

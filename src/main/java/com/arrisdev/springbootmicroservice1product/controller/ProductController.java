@@ -1,15 +1,15 @@
-package com.sha.springbootmicroservice1product.controller;
+package com.arrisdev.springbootmicroservice1product.controller;
 
-import com.sha.springbootmicroservice1product.model.Product;
-import com.sha.springbootmicroservice1product.service.IProductService;
+import com.arrisdev.springbootmicroservice1product.model.Product;
+import com.arrisdev.springbootmicroservice1product.service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author sa
- * @date 11.04.2021
+ * @author ArrisDev
+ * @date 09.01.2021
  * @time 18:36
  */
 @RestController

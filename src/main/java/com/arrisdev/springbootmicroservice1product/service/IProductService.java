@@ -1,6 +1,6 @@
-package com.sha.springbootmicroservice1product.service;
+package com.arrisdev.springbootmicroservice1product.service;
 
-import com.sha.springbootmicroservice1product.model.Product;
+import com.arrisdev.springbootmicroservice1product.model.Product;
 
 import java.util.List;
 

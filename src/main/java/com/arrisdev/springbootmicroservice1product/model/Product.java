@@ -1,4 +1,4 @@
-package com.sha.springbootmicroservice1product.model;
+package com.arrisdev.springbootmicroservice1product.model;
 
 import lombok.Data;
 
@@ -6,8 +6,8 @@ import javax.persistence.*;
 import java.time.LocalDateTime;
 
 /**
- * @author sa
- * @date 11.04.2021
+ * @author ArrisDev
+ * @date 09.01.2021
  * @time 17:25
  */
 @Data

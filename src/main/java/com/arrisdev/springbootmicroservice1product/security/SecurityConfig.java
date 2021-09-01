@@ -1,4 +1,4 @@
-package com.sha.springbootmicroservice1product.security;
+package com.arrisdev.springbootmicroservice1product.security;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -9,9 +9,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
- * @author sa
- * @date 11.04.2021
- * @time 18:42
+ * @author arrisDev
+ * @date 09.01.2021
+ * @time 09:42
  */
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter
